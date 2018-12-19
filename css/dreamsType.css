@@ -1,0 +1,6 @@
+﻿@import "./layout.css";
+@import "./type.css";
+.wrapper .typeIcon {
+  margin: 0 0.25rem;
+  padding-top: 0.3rem;
+}

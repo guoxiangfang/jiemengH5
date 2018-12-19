@@ -1,0 +1,93 @@
+﻿@import "./commer.css";
+@import "./list.css";
+.jiemeng_list {
+  margin:0 0.37rem;
+}
+.jiemeng_list ul li{
+  border-bottom: 1px solid #efe0d3;
+  padding:0.37rem 0;
+}
+.jiemeng_list ul li a.more{
+  float:right;
+  background:url(../images/arrow.png) no-repeat center;
+  background-size:0.208rem 0.417rem;
+  display:inline-block;
+  width:0.5rem;
+  height:1.6rem;
+  margin-top: 0;
+}
+.jiemeng_list ul li strong{
+  font-size: 0.36rem;
+  text-align: center;
+  display:block;
+  float:left;
+  width:1.5rem;
+  font-weight: normal;
+}
+.jiemeng_list ul li strong a{
+  color:#999;
+  display:block;
+  font-size: 0.4rem;
+}
+.jiemeng_list ul li strong em {
+  display:block;
+  width:1rem;
+  height:1rem;
+  border-radius: 1rem;
+  margin:0 auto 0.1rem;
+}
+.jiemeng_list ul li p{
+  margin-left:1.9rem;
+  line-height: 0.8rem;
+  height:1.6rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2;
+  overflow: hidden;
+}
+.jiemeng_list ul li p a{
+  display:inline-block;
+  margin-right: 0.1rem;
+  font-size: 0.5rem;
+}
+.jiemeng_list ul li:nth-child(5n+1) strong em{
+  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#818792), to(#b9bec8));
+}
+.jiemeng_list ul li:nth-child(5n+2) strong em{
+  background: -webkit-gradient(linear,126% 100%, 68% 0%,from(#978A80),to(#d4c8bc));
+}
+.jiemeng_list ul li:nth-child(5n+3) strong em{
+  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#8A8494), to(#c9bfcd));
+}
+.jiemeng_list ul li:nth-child(5n+4) strong em{
+  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#858C7F), to(#c9cfc3));
+}
+.jiemeng_list ul li:nth-child(5n+5) strong em{
+  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#A38F8F), to(#d3bebc));
+}
+.jiemeng_list ul li strong em i{
+  display:block;
+  width: 1rem;
+  height: 1rem;
+}
+.jiemeng_list ul li:nth-child(1) strong em i{
+  background:url(../images/type/renwu.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(2) strong em i{
+  background:url(../images/type/dongwu.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(3) strong em i{
+  background:url(../images/type/zhiwu.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(4) strong em i{
+  background:url(../images/type/wupin.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(5) strong em i{
+  background:url(../images/type/shenti.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+

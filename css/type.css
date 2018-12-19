@@ -1,0 +1,83 @@
+.typeIcon ul {
+  float: none;
+  clear: both;
+  height: auto;
+  border: none;
+}
+.typeIcon ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 0.3rem 0;
+}
+.typeIcon ul li a {
+  display: block;
+}
+.typeIcon ul li em {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 auto 0.12rem;
+  display: block;
+  border-radius: 100%;
+}
+
+.typeIcon ul li:nth-child(1) em {
+  background: url("../images/type/renwu.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.typeIcon ul li:nth-child(2) em {
+  background: url("../images/type/dongwu.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.typeIcon ul li:nth-child(3) em {
+  background: url("../images/type/zhiwu.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.typeIcon ul li:nth-child(4) em {
+  background: url("../images/type/wupin.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.typeIcon ul li:nth-child(5) em {
+  background: url("../images/type/shenti.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.typeIcon ul li:nth-child(6) em {
+  background: url("../images/type/shenghuo.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.typeIcon ul li:nth-child(7) em {
+  background: url("../images/type/huodong.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.typeIcon ul li:nth-child(8) em {
+  background: url("../images/type/ziran.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.typeIcon ul li:nth-child(9) em {
+  background: url("../images/type/qingai.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.typeIcon ul li:nth-child(10) em {
+  background: url("../images/type/guishen.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.typeIcon ul li:nth-child(11) em {
+  background: url("../images/type/jianzhu.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.typeIcon ul li:nth-child(12) em {
+  background: url("../images/type/qita.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+.typeIcon ul li span {
+  display: block;
+  color: #777;
+  font-size: 0.3rem;
+}

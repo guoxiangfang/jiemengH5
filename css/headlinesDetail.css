@@ -1,0 +1,37 @@
+﻿@import "./layout.css";
+@import "./list.css";
+article{
+	padding: 0 0.37rem;
+}
+.article-title h1{
+	font-size: 22px!important;
+	line-height: 28px;
+	font-weight: 700;
+	padding:0.53rem 0;
+	color: #555;
+}
+.article-content .section {
+	line-height: 28px;
+  margin-bottom: 10px;
+}
+.article-content .txt {
+	word-wrap: break-word;
+	font-size: 18px;
+	color: #333;
+}
+.article-content .img{
+	margin: 10px 0;
+}
+.article-content .img .img-wrap {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.article-content .img .img-wrap img{
+	width: 100%;
+}
+.section-title {
+  margin: 0.5rem 0.37rem;
+}

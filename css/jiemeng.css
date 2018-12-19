@@ -1,0 +1,100 @@
+@import url(layout.css);  
+header.header{ background-image: url(../images/jiemeng/headbg.png);}
+.mpart {background-image:url(../images/jiemeng/bg.jpg);background-size: 100%;height:auto;}
+.mpart .vision{ bottom:-1rem; position:absolute;}
+.mpart .vision .s_botm:nth-child(1n) ,.vision .s_botm:nth-child(2n) { margin-top: 0rem;}
+.plus_box .plus_mpart{background-image:url(../images/jiemeng/bg.jpg);}
+.plus_box .plus_mpart .vision .s_mide{ background:none;}
+.hkl{ background:none;}
+
+.tbox{width:6.6rem;left:1.7rem;padding-top: 1.2rem;height: 5.2rem;}
+.tbox strong{ display:block; text-align: center; height: 1rem; background: url(../images/jiemeng/title.svg) no-repeat center; background-size: 62%; text-indent: -9999px;}
+.tbox .inpbox{width:6rem;padding:0 0.3rem;margin-top: 0.4rem;background:#fff;border-radius: 0.926rem;}
+.tbox .inpbox label{ float:left; width:1.4rem; white-space: nowrap; overflow: hidden; line-height: 1rem; color: #9b785f;}
+.tbox .inpbox .dream{margin-left: 1.4rem;}
+.tbox .inpbox .dream input{ text-align: left; padding:0; width:100%; color:#555;}
+.tbox button{ height:0.926rem; background:-webkit-gradient(linear, 72% 100%, 68% 0%, from(#ab7a58), to(#d09d7a)); width:3.5rem; border-radius: 0.926rem; color:#7d5644; margin:0.5rem auto 0; display: block;box-shadow: 0px 6px 10px rgba(77,41,17,0.2); font-size: 0.45rem; font-family: "微软雅黑";}
+
+.jiemeng_list{ margin:0 0.37rem;}
+.jiemeng_list ul li{ border-bottom: 1px solid #eee; padding:0.37rem 0;}
+.jiemeng_list ul li:first-child{ padding-top:0;}
+.jiemeng_list ul li:last-child{ border:0;}
+.jiemeng_list ul li a.more{float:right;background:url(../images/jiemeng/arrow.png) no-repeat center;background-size:0.208rem 0.417rem;display:inline-block;width:0.5rem;height:1.6rem;margin-top: 0;}
+.jiemeng_list ul li strong{font-size: 0.36rem;text-align: center;display:block;float:left;width:1.5rem;font-weight: normal;}
+.jiemeng_list ul li strong a{ color:#999; display:block;}
+.jiemeng_list ul li strong em { display:block; width:1rem; height:1rem;  border-radius: 1rem; margin:0 auto 0.1rem;}
+.jiemeng_list ul li p{ margin-left:1.9rem; line-height: 0.8rem; height:1.6rem; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp:2; overflow: hidden;}
+.jiemeng_list ul li p a{ display:inline-block; margin-right: 0.3rem;}
+.jiemeng_list ul li:nth-child(5n+1) strong em{background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#818792), to(#b9bec8));}
+.jiemeng_list ul li:nth-child(5n+2) strong em{ background: -webkit-gradient(linear,126% 100%, 68% 0%,from(#978A80),to(#d4c8bc));}
+.jiemeng_list ul li:nth-child(5n+3) strong em{ background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#8A8494), to(#c9bfcd));}
+.jiemeng_list ul li:nth-child(5n+4) strong em{ background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#858C7F), to(#c9cfc3));}
+.jiemeng_list ul li:nth-child(5n+5) strong em{ background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#A38F8F), to(#d3bebc));}
+.jiemeng_list ul li strong em i{ display:block; width: 1rem; height: 1rem;  background:url(../images/jiemeng/icon.png) no-repeat 0 0; background-size: 12rem 1rem;}
+.jiemeng_list ul li:nth-child(1) strong em i{ background-position: 0 0; }
+.jiemeng_list ul li:nth-child(2) strong em i{ background-position: -1rem 0;}
+.jiemeng_list ul li:nth-child(3) strong em i{ background-position: -2rem 0;}
+.jiemeng_list ul li:nth-child(4) strong em i{ background-position: -3rem 0;}
+.jiemeng_list ul li:nth-child(5) strong em i{ background-position: -4rem 0;}
+.jiemeng_list ul li:nth-child(6) strong em i{ background-position: -5rem 0;}
+.jiemeng_list ul li:nth-child(7) strong em i{ background-position: -6rem 0;}
+.jiemeng_list ul li:nth-child(8) strong em i{ background-position: -7rem 0;}
+.jiemeng_list ul li:nth-child(9) strong em i{ background-position: -8rem 0;}
+.jiemeng_list ul li:nth-child(10) strong em i{ background-position: -9rem 0;}
+.jiemeng_list ul li:nth-child(11) strong em i{ background-position: -10rem 0;}
+.jiemeng_list ul li:nth-child(12) strong em i{ background-position: -11rem 0;}
+ 
+.list{ margin-bottom: 10px; border-top: 10px solid #f8f8f8; padding-top: 0.3rem;}
+.list .h3 strong {background:#BA9A88;}
+.list .h3 small {color: #E09D60;}
+.list .h3 i{background-color: #E09D60;}
+.list .h4{ color:#805e49;}
+.list .h4 small { color:#805e49;}
+.list .h4 small a { float:right; color:#805e49; font-size: 0.4rem; font-weight: normal;}
+.list .h4 small i { background-color:#805e49; vertical-align: sub;}
+
+
+.li_imgtxt li h4 { height:auto;}
+.jmlist{ margin:0; border:0; padding:0;}
+.jmlist li{ min-height:auto;}
+.jmlist li h4{font-size:0.4rem;color: #926a56;}
+.jmlist li h4 b{font-size:0.463rem;color:#e09d60;}
+.jmlist li p{ margin-bottom: 0.2rem; height:auto;}
+.jmlist li small { max-height: 1.4rem; overflow: hidden; display: block }
+.jmlist li span{display:inline-block;height:0.6rem; font-size: .35rem; line-height:0.6rem; white-space: nowrap; overflow:hidden;margin:0 0.1rem 0 0;background: #f5f0ed;border-radius: 5px;padding:0 0.2rem;}
+.jmlist li span a { color:#af7f66; }
+.page a, .page span{ background-color:#f5f0ed; background-image:url(../images/jiemeng/icon_page.png);}
+.page em strong{ color:#af7f66;}
+
+.float_sbox .category ul.icon li em { padding: 0; width: 1.2rem; height: 1.2rem;}
+.float_sbox .category ul.icon li:nth-child(5n+1) em{background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#818792), to(#b9bec8));}
+.float_sbox .category ul.icon li:nth-child(5n+2) em{ background: -webkit-gradient(linear,126% 100%, 68% 0%,from(#978A80),to(#d4c8bc));}
+.float_sbox .category ul.icon li:nth-child(5n+3) em{ background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#8A8494), to(#c9bfcd));}
+.float_sbox .category ul.icon li:nth-child(5n+4) em{ background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#858C7F), to(#c9cfc3));}
+.float_sbox .category ul.icon li:nth-child(5n+5) em{ background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#A38F8F), to(#d3bebc));}
+.float_sbox .category ul.icon li em a{ display:block; width: 1rem; height: 1rem;  background:url(../images/jiemeng/icon.png) no-repeat 0 0; background-size: auto 1.2rem;}
+.float_sbox .category ul.icon li:nth-child(1) em a{ background-position: 0 0; }
+.float_sbox .category ul.icon li:nth-child(2) em a{ background-position: -1.2rem 0;}
+.float_sbox .category ul.icon li:nth-child(3) em a{ background-position: -2.4rem 0;}
+.float_sbox .category ul.icon li:nth-child(4) em a{ background-position: -3.6rem 0;}
+.float_sbox .category ul.icon li:nth-child(5) em a{ background-position: -4.8rem 0;}
+.float_sbox .category ul.icon li:nth-child(6) em a{ background-position: -6rem 0;}
+.float_sbox .category ul.icon li:nth-child(7) em a{ background-position: -7.2rem 0;}
+.float_sbox .category ul.icon li:nth-child(8) em a{ background-position: -8.4rem 0;}
+.float_sbox .category ul.icon li:nth-child(9) em a{ background-position: -9.6rem 0;}
+.float_sbox .category ul.icon li:nth-child(10) em a{ background-position: -10.8rem 0;}
+.float_sbox .category ul.icon li:nth-child(11) em a{ background-position: -12rem 0;}
+.float_sbox .category ul.icon li:nth-child(12) em a{ background-position: -13.2rem 0;}
+
+.float_sbox .category ul.icon li span{ font-size:.38rem;}
+
+
+.post_dream{ padding: .6rem 0;}
+.post_dream strong{ display:block; text-align: center; margin-top: 10px; line-height: 26px; color:#e23674;}
+.post_dream .inpbox { background: #eee; }
+.post_dream input[type=text] { text-align: left; padding: 0 .5rem }
+.post_dream textarea { min-height: 4rem }
+.post_dream button { margin-top: .3rem }
+.post_dream ul{ margin:0 10px;}
+.post_dream ul li{ margin-top:10px;}
+.post_dream ul li.jm_btn{ text-align: center;}

@@ -1,0 +1,189 @@
+﻿@import "./layout.css";
+/*头部*/
+header {
+  height: 50px;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  max-width: 750px;
+  top: 0;
+}
+header span {
+  display: block;
+  float: right;
+  height: 2.5rem;
+}
+
+header span em {
+  background: url(../images/04.png) no-repeat center 50%;
+  background-size: .6rem;
+  border-radius: 100%;
+  width: 0.8rem;
+  height: 0.8rem;
+  display: block;
+  float: left;
+  margin: 0.2rem 0.2rem 0 0;
+}
+
+.mpart {
+  background: -webkit-gradient(linear, 78% 100%, 68% 0%, from(#645af9), to(#708aff));
+  background-size: 100% 4.2rem;
+  overflow: hidden;
+  position: relative;
+}
+.mpart {
+  background-image: url(../images/beijing.png);
+  background-size: 100%;
+  height: auto;
+}
+.tbox {
+  width: 6.6rem;
+  margin: auto;
+  padding-top: 1.5rem;
+  height: 3.85rem;
+}
+.inpbox {
+  min-height:1rem;
+  fpadding: 0.37rem 0;
+  margin: .5rem auto 0;
+  background: #fff;
+  border-radius: 0.926rem;
+  overflow: hidden;
+}
+.inpbox span, .inpbox input[type=text],
+.inpbox textarea {
+  height: 1rem;
+  line-height: 1rem;
+  display: block;
+  background:none;
+  font-size: 0.444rem;
+  padding: 0 0.3rem; color:#a9a9a9;
+  width:100%;
+  box-sizing:border-box;
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.inpbox input[type=text] {
+  height: .6rem;
+  line-height: .6rem;
+  margin: .2rem 0;
+}
+.inpbox textarea {
+  min-height: 2rem;
+  text-align: left;
+  padding: 0 .5rem;
+}
+.inpbox span.notempty,
+.inpbox input[type=text],
+.inpbox textarea {
+  color: #5088eb;
+}
+.inpbtn, .inp_form em,
+.inp_form button {
+  height:1rem;
+  display:inline-block;
+  margin: .5rem auto 0;
+  color:#fff;
+  background: -webkit-gradient(linear, 72% 100%, 68% 0%, from(#5382ff), to(#8bb4ff));
+  border-radius: 0.926rem;
+  text-align: center;
+  line-height: 1rem;
+  padding:0 1rem;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+}
+.tbox .inpbox {
+  width: 6rem;
+  padding: 0 0.3rem;
+  margin-top: 0.6rem;
+  background: #fff;
+  border-radius: 0.926rem;
+}
+
+.tbox .inpbox label {
+  float: left;
+  width: 1.4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1rem;
+  color: #8e6a4d;
+}
+
+.tbox .inpbox .dream {
+  margin-left: 1.4rem;
+}
+
+.tbox .inpbox .dream input {
+  text-align: left;
+  padding: 0;
+  width: 100%;
+  color: #555;
+}
+
+.tbox button {
+  height: 0.926rem;
+  background: -webkit-gradient(linear, 72% 100%, 68% 0%, from(#ab7a58), to(#d09d7a));
+  width: 3.5rem;
+  border-radius: 0.926rem;
+  color: #71513c;
+  margin: 0.65rem auto 0;
+  display: block;
+  box-shadow: 0px 6px 10px rgba(77, 41, 17, 0.2);
+  font-size: 0.45rem;
+  font-family: "微软雅黑";
+}
+.more {
+  display: block;
+  margin: 0.3rem auto 0;
+  text-align: center;
+}
+
+.h3{
+  padding-bottom: 0.16rem;
+  font-size: 0.468rem;
+  color: #4878e4;
+  border-bottom: solid 1px #efe1d3;
+}
+.h3 small {
+  display: inline-block;
+  float: right;
+  color: #8e6a4d;
+}
+.h3 span {
+  font-size: 0.468rem;
+  vertical-align: middle;
+  font-weight: normal;
+}
+.h3 i {
+  background:url(../images/arrow_down.png) no-repeat center;
+  background-size: 100%;
+  display: inline-block;
+  width: 0.41rem;
+  height: 0.42rem;
+  margin-left: .2rem;
+  vertical-align: middle;
+}
+.h3 strong {
+  font-weight: normal;
+  color: #fff;
+  line-height: .72rem;
+  padding: 0 .2rem;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 0.426rem;
+  background: #8d6a4d;
+}
+.h3 strong a {
+  color: #fff;
+  float: none;
+  font-size: 0.468rem;
+}
+
+.list{
+  margin-bottom: 10px;
+  padding: 0.368rem 0.368rem 0 0.368rem;
+}
+
+
+

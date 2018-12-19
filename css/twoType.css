@@ -1,0 +1,68 @@
+﻿@import "./layout.css";
+@import "./list.css";
+.viewcont {
+  padding: 0 0.37rem;
+}
+.viewcont h1 {
+  font-size: 0.6rem;
+  color: #b78663;
+  line-height: 1rem;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 0.5rem;
+}
+.viewcont .outer {
+  line-height: 1rem;
+  font-size: 0.463rem;
+  padding-top: 0.2rem;
+}
+.viewcont .outer p.cont {
+  text-indent: .926rem;
+  padding-bottom: 0.3rem;
+}
+.outer ul li {
+  border-top: solid 1px #efe0d3;
+  padding: .2rem 0;
+}
+.outer ul li h2 {
+  color: #b78663;
+  font-size: .52rem;
+  /*line-height: 1.2rem;*/
+  font-weight: 600;
+}
+.outer ul li h2 small {
+  background: #d09d7a;
+  font-weight: 500;
+  color: #fff;
+  line-height: .6rem;
+  width: .6rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 8%;
+  margin-right: .15rem;
+  font-size: .32rem;
+  text-shadow: 0px 0px 1px #333;
+}
+.related {
+  margin: 0 .37rem;
+}
+.related ul li {
+  float: left;
+  width: 50%;
+}
+.related ul li a {
+  color: #a7846b;
+  line-height: 1.2rem;
+  height: 1.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  padding-right: 0.1rem;
+  font-size: 0.5rem;
+}
+
+.section-title {
+  margin: 0.2rem 0.37rem;
+}
