@@ -1,33 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>解梦网-一级分类下拉</title>
-    <meta name="keywords" content="keyword1,keyword2,keyword3">
-    <meta name="description" content="this is my page">
-    <meta name="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-	  <link rel="stylesheet" type="text/css" href="./css/oneTypeSelect.css">
-  </head>
-  <body>
-  <div class="oneTypeBox typeIcon">
-    <h2>解梦分类</h2>
-    <ul class="type clear">
-      <li><a href="#"><em></em><span>人物</span></a></li>
-      <li><a href="#"><em></em><span>动物</span></a></li>
-      <li><a href="#"><em></em><span>植物</span></a></li>
-      <li><a href="#"><em></em><span>物品</span></a></li>
-      <li><a href="#"><em></em><span>身体</span></a></li>
-      <li><a href="#"><em></em><span>生活</span></a></li>
-      <li><a href="#"><em></em><span>活动</span></a></li>
-      <li><a href="#"><em></em><span>自然</span></a></li>
-      <li><a href="#"><em></em><span>情爱</span></a></li>
-      <li><a href="#"><em></em><span>鬼神</span></a></li>
-      <li><a href="#"><em></em><span>建筑</span></a></li>
-      <li><a href="#"><em></em><span>其他</span></a></li>
+<head>
+  <meta charset="utf-8">
+  <title>解梦网——一级分类下拉</title>
+  <meta name="keywords" content="keyword1,keyword2,keyword3">
+  <meta name="description" content="this is my page">
+  <meta name="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="./css/oneTypeList.css">
+  <link rel="stylesheet" type="text/css" href="./css/oneTypeSelect.css">
+</head>
+
+<body>
+<div class="mark"></div>
+<div class="oneTypeBox typeIcon" style="height: 10rem">
+  <h2>解梦分类</h2>
+  <ul class="type clear">
+    <li><a href="#"><em></em><span>人物</span></a></li>
+    <li><a href="#"><em></em><span>动物</span></a></li>
+    <li><a href="#"><em></em><span>植物</span></a></li>
+    <li><a href="#"><em></em><span>物品</span></a></li>
+    <li><a href="#"><em></em><span>身体</span></a></li>
+    <li><a href="#"><em></em><span>生活</span></a></li>
+    <li><a href="#"><em></em><span>活动</span></a></li>
+    <li><a href="#"><em></em><span>自然</span></a></li>
+    <li><a href="#"><em></em><span>情爱</span></a></li>
+    <li><a href="#"><em></em><span>鬼神</span></a></li>
+    <li><a href="#"><em></em><span>建筑</span></a></li>
+    <li><a href="#"><em></em><span>其他</span></a></li>
+  </ul>
+</div>
+<div class="wrapper">
+  <header>
+    <span><em></em></span>
+  </header>
+  <div class="mpart">
+    <div class="tbox">
+      <form action="">
+        <div class="inpbox"><label>梦见：</label>
+          <div class="dream"><input type="text" class="is_must" name="q" placeholder="蛇、打雷" value=""></div>
+        </div>
+        <button class="submit">马上解梦</button>
+      </form>
+    </div>
+  </div>
+  <div class="list">
+    <h3 class="h3 fixed">
+      <small class="J_selcate_btn"><span>人物</span><i></i></small>
+      <strong><a href="index.html">周公解梦</a></strong>
+    </h3>
+    <ul class="list_cont">
+      <li class="etxt">
+        <a href="#">
+          <h4>梦见<b>女人哭</b></h4>
+          <p>表示你很快就能走到一份好的工作，而且工资很高，生活也开始富起来可，是端祥。</p>
+        </a>
+        <small class="type_tag">
+          <span><a href="#">生意人梦见女人哭</a></span>
+          <span><a href="#">求职者梦见女人哭</a></span>
+          <span><a href="#">学者梦见女人哭</a></span>
+          <span><a href="#">鳏寡孤独者梦见女人哭</a></span>
+        </small>
+      </li>
+      <li class="etxt">
+        <a href="#">
+          <h4>梦见<b>女人哭</b></h4>
+          <p>表示你很快就能走到一份好的工作，而且工资很高，生活也开始富起来可，是端祥。</p>
+        </a>
+        <small class="type_tag">
+          <span><a href="#">生意人梦见女人哭</a></span>
+          <span><a href="#">求职者梦见女人哭</a></span>
+          <span><a href="#">学者梦见女人哭</a></span>
+          <span><a href="#">鳏寡孤独者梦见女人哭</a></span>
+        </small>
+      </li>
     </ul>
   </div>
-	<div class="mark hide"></div>
-  </body>
+
+  <div class="page">
+    <!--默认上一页不可点击，加上class="prev"为上一页可点击状态-->
+    <span class="prev"></span>
+    <em>
+      <strong>1</strong>/
+      <small>110</small>
+    </em>
+    <a class="next" href="javaScript:void(0);"></a>
+    <!--默认下一页可点击，加上class="next"为下一页不可点击状态-->
+  </div>
+</div>
+</body>
+<script src="./js/jquery.js"></script>
+<script src="./js/public.js"></script>
 </html>
+
+
+
 	
