@@ -10,7 +10,7 @@ $(document).ready(function(){
   _resize();
   window.onresize = function(){_resize();};
   $("#showBtn").on("click",function(){
-    var TypeShow = $("#overhide");
+      var TypeShow = $("#overhide");
     show(TypeShow);
   });
   function show(el){
