@@ -16,10 +16,9 @@ header span {
 
 header span em {
   background: url(../images/04.png) no-repeat center 50%;
-  background-size: .6rem;
-  border-radius: 100%;
-  width: 0.8rem;
-  height: 0.8rem;
+  background-size: .5rem;
+  width: 0.69rem;
+  height: 0.69rem;
   display: block;
   float: left;
   margin: 0.2rem 0.2rem 0 0;

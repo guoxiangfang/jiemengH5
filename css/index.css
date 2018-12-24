@@ -27,7 +27,7 @@
 .jiemeng_list ul li strong a{
   color:#999;
   display:block;
-  font-size: 0.4rem;
+  font-size: 0.36rem;
 }
 .jiemeng_list ul li strong em {
   display:block;
@@ -48,23 +48,23 @@
 .jiemeng_list ul li p a{
   display:inline-block;
   margin-right: 0.1rem;
-  font-size: 0.5rem;
+  font-size: 0.44rem;
 }
-.jiemeng_list ul li:nth-child(5n+1) strong em{
-  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#818792), to(#b9bec8));
-}
-.jiemeng_list ul li:nth-child(5n+2) strong em{
-  background: -webkit-gradient(linear,126% 100%, 68% 0%,from(#978A80),to(#d4c8bc));
-}
-.jiemeng_list ul li:nth-child(5n+3) strong em{
-  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#8A8494), to(#c9bfcd));
-}
-.jiemeng_list ul li:nth-child(5n+4) strong em{
-  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#858C7F), to(#c9cfc3));
-}
-.jiemeng_list ul li:nth-child(5n+5) strong em{
-  background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#A38F8F), to(#d3bebc));
-}
+/*.jiemeng_list ul li:nth-child(5n+1) strong em{*/
+  /*background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#818792), to(#b9bec8));*/
+/*}*/
+/*.jiemeng_list ul li:nth-child(5n+2) strong em{*/
+  /*background: -webkit-gradient(linear,126% 100%, 68% 0%,from(#978A80),to(#d4c8bc));*/
+/*}*/
+/*.jiemeng_list ul li:nth-child(5n+3) strong em{*/
+  /*background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#8A8494), to(#c9bfcd));*/
+/*}*/
+/*.jiemeng_list ul li:nth-child(5n+4) strong em{*/
+  /*background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#858C7F), to(#c9cfc3));*/
+/*}*/
+/*.jiemeng_list ul li:nth-child(5n+5) strong em{*/
+  /*background: -webkit-gradient(linear, 126% 100%, 68% 0%, from(#A38F8F), to(#d3bebc));*/
+/*}*/
 .jiemeng_list ul li strong em i{
   display:block;
   width: 1rem;
@@ -90,4 +90,31 @@
   background:url(../images/type/shenti.png) no-repeat 0 0;
   background-size: 1rem 1rem;
 }
-
+.jiemeng_list ul li:nth-child(6) strong em i{
+  background:url(../images/type/guishen.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(7) strong em i{
+  background:url(../images/type/huodong.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(8) strong em i{
+  background:url(../images/type/jianzhu.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(9) strong em i{
+  background:url(../images/type/qingai.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(10) strong em i{
+  background:url(../images/type/shenghuo.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(11) strong em i{
+  background:url(../images/type/ziran.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}
+.jiemeng_list ul li:nth-child(12) strong em i{
+  background:url(../images/type/qita.png) no-repeat 0 0;
+  background-size: 1rem 1rem;
+}

@@ -21,7 +21,7 @@
 .headline span.headlineMore {
   float: right;
   color: #8e6a4d;
-  font-size: 0.46rem;
+  font-size: 0.42rem;
 }
 .headline span.headlineMore a{
   color: #8e6a4d;
@@ -44,7 +44,7 @@
   padding-top: 10px;
 }
 .headlineList p a {
-  font-size: 0.5rem;
+  font-size: 0.44rem;
   /*line-height: 0.8rem;*/
 }
 .headlineList ul {
@@ -81,7 +81,7 @@
   width:100%;
   display: flex;
   align-items: center;
-  font-size: 0.5rem;
+  font-size: 0.44rem;
 }
 .adList dl dt {
   width: 32.8%;
