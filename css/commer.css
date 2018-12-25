@@ -148,9 +148,10 @@ header span em {
   display: inline-block;
   float: right;
   color: #8e6a4d;
+  margin-top: 0.3rem;
 }
 .h3 span {
-  font-size: 0.468rem;
+  font-size: 0.42rem;
   vertical-align: middle;
   font-weight: normal;
 }
@@ -164,23 +165,22 @@ header span em {
   vertical-align: middle;
 }
 .h3 strong {
+  height:0.83rem;
   font-weight: normal;
   color: #fff;
-  line-height: .72rem;
-  padding: 0 .2rem;
+  line-height: .83rem;
+  padding: 0 .3rem;
   display: inline-block;
   border-radius: 5px;
-  font-size: 0.426rem;
-  background: #8d6a4d;
+  background: #8e6a4d;
 }
 .h3 strong a {
   color: #fff;
   float: none;
-  font-size: 0.468rem;
+  font-size: 0.42rem;
 }
 
 .list{
-  margin-bottom: 10px;
   padding: 0.368rem 0.368rem 0 0.368rem;
 }
 

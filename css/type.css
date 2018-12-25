@@ -79,5 +79,6 @@
 .typeIcon ul li span {
   display: block;
   color: #777;
-  font-size: 0.3rem;
+  /*font-size: 0.3rem;*/
+  font-size: 0.37rem;
 }

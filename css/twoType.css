@@ -34,15 +34,16 @@
   background: #d09d7a;
   font-weight: 500;
   color: #fff;
-  line-height: .6rem;
-  width: .6rem;
+  line-height: .7rem;
+  width: .7rem;
   text-align: center;
   display: inline-block;
   vertical-align: middle;
-  border-radius: 8%;
+  border-radius: 14%;
   margin-right: .15rem;
-  font-size: .32rem;
-  text-shadow: 0px 0px 1px #333;
+  font-size: .38rem;
+  text-shadow: 0px 1px 0px #c68251;
+  margin-bottom: 0.1rem;
 }
 .related {
   margin: 0 .37rem;
@@ -60,7 +61,8 @@
   white-space: nowrap;
   display: block;
   padding-right: 0.1rem;
-  font-size: 0.5rem;
+  /*font-size: 0.5rem;*/
+  font-size: 0.426rem;
 }
 
 .section-title {
